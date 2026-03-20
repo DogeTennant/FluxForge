@@ -1,8 +1,8 @@
 # FluxForge
 
-An industrial tech plugin for Minecraft servers. Build power networks, automate your world, and fly with a jetpack — no mods required.
+An industrial tech plugin for Minecraft servers. Build power networks, automate your world, and fly with a jetpack - no mods required.
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1+-green)](https://www.minecraft.net)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11+-green)](https://www.minecraft.net)
 [![Java](https://img.shields.io/badge/Java-21+-orange)](https://adoptium.net)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
@@ -12,7 +12,7 @@ An industrial tech plugin for Minecraft servers. Build power networks, automate 
 
 FluxForge brings the industrial tech mod experience to vanilla Minecraft servers. Build generators, connect machines through conduit networks, automate mining and mob grinding, sort your chests, and eventually craft a jetpack to fly around your setup.
 
-Everything runs on **FE (Flux Energy)** — a custom power unit that flows between machines through copper grate conduits. Machines have their own energy buffers, batteries store excess power, and breaking a conduit splits the network cleanly without losing any stored energy.
+Everything runs on **FE (Flux Energy)** - a custom power unit that flows between machines through copper grate conduits. Machines have their own energy buffers, batteries store excess power, and breaking a conduit splits the network cleanly without losing any stored energy.
 
 ---
 
@@ -24,7 +24,7 @@ Everything runs on **FE (Flux Energy)** — a custom power unit that flows betwe
 - **Crafting progression** across 3 tiers of components
 - **In-game recipe viewer** via `/ff recipes`
 - **Wrench tool** to open GUIs for every machine
-- **Toggleable machines** — miners and mob grinders are off by default
+- **Toggleable machines** - miners and mob grinders are off by default
 - **Full localization** with English and Czech out of the box, easy to add more
 - **SQLite** by default, **MySQL/MariaDB** supported with a built-in migration command
 - **Fully configurable** energy values, machine costs, and more
@@ -45,7 +45,7 @@ Everything runs on **FE (Flux Energy)** — a custom power unit that flows betwe
 1. Download the latest `FluxForge.jar` from the [Releases](https://github.com/DogeTennant/FluxForge/releases) page
 2. Drop it into your server's `plugins/` folder
 3. Restart the server
-4. Done — FluxForge uses SQLite by default with no extra setup required
+4. Done - FluxForge uses SQLite by default with no extra setup required
 
 ---
 
