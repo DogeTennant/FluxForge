@@ -1,0 +1,205 @@
+# FluxForge English (en_us) Translation
+
+# General
+prefix: "&b[FluxForge] "
+no-permission: "&cYou don't have permission to use this command."
+player-only: "This command can only be run by a player."
+unknown-subcommand: "&cUnknown subcommand."
+plugin-reloaded: "&b[FluxForge] &fPlugin reloaded successfully."
+
+# Machine general
+machine-placed: "&b[FluxForge] &f{machine} placed!"
+machine-removed: "&b[FluxForge] &f{machine} removed!"
+network-energy: "&7  Network Energy: &a{energy} FE"
+not-a-machine: "&cYou must be looking at a machine (within 5 blocks)."
+
+# Generator
+generator-status: "&b[FluxForge] &fGenerator Status:"
+generator-fuel: "&7  Fuel: &e{fuel} remaining"
+generator-energy: "&7  Network Energy: &a{energy} FE"
+generator-tip: "&7  Tip: Right-click with coal, charcoal or coal blocks to add fuel."
+generator-fuel-added: "&b[FluxForge] &fAdded {amount} coal to the Generator."
+generator-fuel-current: "&7Fuel: &e{fuel} remaining"
+
+# Solar Panel
+solar-status: "&b[FluxForge] &fSolar Panel Status:"
+
+# Battery
+battery-status: "&b[FluxForge] &fBattery Status:"
+battery-energy: "&7  Energy: &a{energy} FE &7/ &a{max} FE"
+
+# Electric Furnace
+furnace-status: "&b[FluxForge] &fElectric Furnace Status:"
+furnace-energy: "&7  Energy: &a{energy} FE"
+furnace-cost: "&7  Cost per smelt: &e{cost} FE"
+furnace-tip: "&7  Tip: Right-click with a smeltable item to smelt it."
+furnace-not-smeltable: "&cThat item cannot be smelted."
+furnace-not-enough-energy: "&cNot enough energy! Need {cost} FE, have {energy} FE."
+furnace-smelted: "&b[FluxForge] &fSmelted {amount}x {item}!"
+furnace-energy-remaining: "&7  Energy remaining: &a{energy} FE"
+furnace-hold-item: "&cHold the item you want to smelt."
+
+# Miner
+miner-status: "&b[FluxForge] &fMiner Status:"
+miner-energy: "&7  Energy: &a{energy} FE"
+miner-cost: "&7  Cost per block: &e{cost} FE"
+miner-next-block: "&7  Next block: &f{block} &7at Y={y}"
+miner-nothing: "&7  Next block: &cNothing to mine"
+
+# Mob Grinder
+grinder-status: "&b[FluxForge] &fMob Grinder Status:"
+grinder-energy: "&7  Energy: &a{energy} FE"
+grinder-cost: "&7  Cost per kill: &e{cost} FE"
+grinder-radius: "&7  Radius: &f{radius} blocks"
+grinder-mobs: "&7  Nearby mobs: &c{count}"
+
+# Item Sorter
+sorter-status: "&b[FluxForge] &fItem Sorter Status:"
+sorter-energy: "&7  Energy: &a{energy} FE"
+sorter-source-set: "&7  Source chest: &aSet"
+sorter-source-not-set: "&7  Source chest: &cNot set"
+sorter-filters: "&7  Filters: &f{count} destination(s)"
+sorter-set-source-prompt: "&b[FluxForge] &fRight-click a chest to set it as the source."
+sorter-source-confirmed: "&b[FluxForge] &fSource chest set!"
+sorter-filter-added: "&b[FluxForge] &f{material} will now be sorted into that chest."
+sorter-filter-removed: "&b[FluxForge] &fFilter for {material} removed."
+sorter-cleared: "&b[FluxForge] &fSorter configuration cleared."
+sorter-type-material: "&b[FluxForge] &fType the material name in chat (e.g. IRON_ORE)."
+sorter-type-cancel: "&7Type &ccancel &7to cancel."
+sorter-cancelled: "&7[FluxForge] Cancelled."
+sorter-unknown-material: "&cUnknown material: {material}"
+sorter-dest-prompt: "&b[FluxForge] &fNow right-click a chest to send {material} there."
+sorter-not-chest: "&cThat's not a chest!"
+sorter-chest-not-connected: "&cThat chest is not connected to the sorter's network!"
+sorter-chest-connected: "&aChest is connected to the network."
+
+# Conduit
+conduit-status: "&b[FluxForge] &fConduit Status:"
+
+# Commands
+cmd-gave-machine: "&b[FluxForge] &fGave you {amount}x {machine}!"
+cmd-gave-component: "&b[FluxForge] &fGave you {amount}x {component}!"
+cmd-gave-wrench: "&b[FluxForge] &fGave you a Flux Wrench!"
+cmd-gave-jetpack: "&b[FluxForge] &fGave you a Flux Jetpack!"
+cmd-set-energy: "&b[FluxForge] &fSet machine energy to {amount} FE."
+cmd-unknown-machine: "&cUnknown machine type: {input}"
+cmd-unknown-component: "&cUnknown component: {input}"
+cmd-invalid-amount: "&cInvalid amount: {input}"
+cmd-usage: "&b[FluxForge] &fUsage:"
+cmd-usage-give: "&7  /ff give <machine> [amount]"
+cmd-usage-givecomponent: "&7  /ff givecomponent <component> [amount]"
+cmd-usage-givewrench: "&7  /ff givewrench"
+cmd-usage-setenergy: "&7  /ff setenergy <amount>"
+cmd-usage-language: "&7  /ff language <language>"
+cmd-usage-recipes: "&7  /ff recipes"
+cmd-usage-reload: "&7  /ff reload"
+cmd-usage-migratedb: "&7  /ff migratedb [confirm]"
+
+# Language command
+language-changed: "&b[FluxForge] &fLanguage changed to: &e{language}"
+language-not-found: "&cLanguage file not found: {language}"
+language-current: "&b[FluxForge] &fCurrent language: &e{language}"
+
+# Item tooltips
+item-lore-machine: "&7FluxForge Machine"
+item-lore-type: "&eType: &f{type}"
+item-lore-component: "&7FluxForge Component"
+item-lore-tier: "&eTier {tier}"
+item-lore-wrench: "&7FluxForge Tool"
+item-lore-wrench-tip: "&eRight-click a machine to configure it."
+
+# GUI titles
+gui-generator: "Generator"
+gui-solar-panel: "Solar Panel"
+gui-battery: "Battery"
+gui-electric-furnace: "Electric Furnace"
+gui-miner: "Miner"
+gui-mob-grinder: "Mob Grinder"
+gui-conduit: "Conduit"
+gui-item-sorter: "Item Sorter"
+gui-sorter-filters: "Sorter Filters"
+
+# GUI items
+gui-fuel: "&eFuel"
+gui-fuel-current: "&7Fuel: &e{fuel} remaining"
+gui-fuel-tip: "&7Right-click with coal, charcoal or coal blocks to add fuel."
+gui-network-energy: "&aNetwork Energy"
+gui-energy-current: "&7Current: &a{energy} FE"
+gui-energy-max: "&7Max: &a{max} FE"
+gui-energy-solar-tip: "&7Produces energy during daylight."
+gui-energy-bar: "&aEnergy Bar"
+gui-smelt-button: "&eSmelt"
+gui-smelt-tip1: "&7Hold an item and click to smelt."
+gui-smelt-tip2: "&7Smelts as many as energy allows."
+gui-smelt-cost: "&7Cost per smelt: &e{cost} FE"
+gui-miner-target: "&eNext Target"
+gui-miner-block: "&7Block: &f{block}"
+gui-miner-cost: "&7Cost per block: &e{cost} FE"
+gui-mobs-nearby: "&cNearby Mobs"
+gui-mobs-count: "&7Count: &c{count}"
+gui-mobs-radius: "&7Radius: &f{radius} blocks"
+gui-mobs-cost: "&7Cost per kill: &e{cost} FE"
+gui-conduit-network-id: "&7Network ID: &f{id}"
+gui-sorter-source-chest: "&eSource Chest"
+gui-sorter-source-set: "&aSet"
+gui-sorter-source-not-set: "&cNot set"
+gui-sorter-source-tip: "&7Click to set source chest."
+gui-sorter-filters-button: "&eFilters"
+gui-sorter-filters-count: "&7Active filters: &f{count}"
+gui-sorter-filters-tip: "&7Click to manage filters."
+gui-sorter-clear: "&cClear Configuration"
+gui-sorter-clear-tip: "&7Clears all sorter settings."
+gui-sorter-add-filter: "&aAdd Filter"
+gui-sorter-add-filter-tip1: "&7Click to add a new filter."
+gui-sorter-add-filter-tip2: "&7You will be prompted for a material."
+gui-sorter-back: "&eBack"
+gui-sorter-back-tip: "&7Return to sorter menu."
+gui-sorter-filter-dest: "&7Destination: &f{dest}"
+gui-sorter-filter-remove: "&cClick to remove."
+
+# Recipe GUI
+gui-recipes-title: "FluxForge Recipes"
+gui-recipes-back: "&eBack"
+gui-recipes-back-tip: "&7Return to recipe list."
+gui-recipe-title: "Recipe: {item}"
+gui-recipe-result: "&aResult"
+gui-recipe-click-tip: "&7Click any item to view its recipe."
+
+# Machine toggle
+machine-toggle-on: "&b[FluxForge] &f{machine} enabled."
+machine-toggle-off: "&b[FluxForge] &f{machine} disabled."
+gui-toggle-enable: "&aEnable"
+gui-toggle-disable: "&cDisable"
+gui-toggle-tip: "&7Click to toggle on/off."
+gui-toggle-status-on: "&7Status: &aEnabled"
+gui-toggle-status-off: "&7Status: &cDisabled"
+
+# Jetpack
+item-lore-jetpack: "&7FluxForge Wearable"
+item-lore-jetpack-charge: "&eCharge: &f{charge}&7/&f{max} FE"
+jetpack-no-charge: "&cJetpack has no charge!"
+jetpack-low-charge: "&eJetpack charge low: {charge} FE"
+
+# Charging Station
+gui-charging-station: "Charging Station"
+gui-charging-slot: "&eCharging Slot"
+gui-charging-slot-tip: "&7Place a chargeable item here."
+gui-charging-progress: "&aCharging Progress"
+gui-charging-current: "&7Charge: &a{charge}&7/&a{max} FE"
+gui-charging-rate: "&7Rate: &e{rate} FE/tick"
+gui-charging-empty: "&7No item inserted."
+gui-charging-network: "&7Network Energy: &a{energy} FE"
+charging-not-chargeable: "&cThat item cannot be charged."
+charging-station-status: "&b[FluxForge] &fCharging Station:"
+charging-station-item-charge: "&7  Item Charge: &a{charge}&7/&a{max} FE"
+charging-station-no-item: "&7  No item inserted."
+
+# Database migration
+migrate-info: "&b[FluxForge] &fThis will migrate your SQLite data to MySQL."
+migrate-configure: "&eCheck your MySQL settings in config.yml first."
+migrate-confirm: "&cType /ff migratedb confirm to proceed."
+migrate-already-mysql: "&c[FluxForge] You are already using MySQL!"
+migrate-starting: "&b[FluxForge] &fStarting migration..."
+migrate-complete: "&b[FluxForge] &aMigration complete!"
+migrate-switch: "&eChange 'database.type' to 'mysql' in config.yml and restart."
+migrate-failed: "&c[FluxForge] Migration failed: {error}"

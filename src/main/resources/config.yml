@@ -1,0 +1,37 @@
+# FluxForge Configuration
+language: en_us
+
+database:
+  type: sqlite # Change to 'mysql' for MySQL/MariaDB
+  mysql:
+    host: localhost
+    port: 3306
+    database: fluxforge
+    username: root
+    password: password
+    pool-size: 10
+
+machines:
+  generator:
+    production-per-tick: 10
+    max-buffer: 1000
+    transfer-rate: 50
+    coal-ticks: 80
+  solar-panel:
+    production-per-tick: 3
+    max-buffer: 300
+    transfer-rate: 20
+  battery:
+    max-buffer: 5000
+    transfer-rate: 100
+  electric-furnace:
+    energy-cost: 50
+  miner:
+    energy-cost: 100
+  mob-grinder:
+    energy-cost: 75
+    radius: 8
+  item-sorter:
+    energy-cost: 10
+  charging-station:
+    charge-rate: 10

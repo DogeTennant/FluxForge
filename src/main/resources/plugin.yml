@@ -1,0 +1,17 @@
+name: FluxForge
+version: ${project.version}
+main: me.dogetennant.fluxforge.FluxForge
+api-version: 1.21
+author: DogeTennant
+description: An industrial tech plugin with power systems, machines, and more.
+
+commands:
+  fluxforge:
+    description: FluxForge main command
+    usage: /ff <give|givecomponent|givewrench|setenergy|language|recipes|reload|migratedb> [args]
+    aliases: [ff]
+
+permissions:
+  fluxforge.admin:
+    description: Allows access to FluxForge admin commands
+    default: op

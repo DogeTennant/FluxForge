@@ -1,0 +1,205 @@
+# FluxForge Czech (cs_cz) Translation
+
+# General
+prefix: "&b[FluxForge] "
+no-permission: "&cNemáš oprávnění používat tento příkaz."
+player-only: "Tento příkaz může spustit pouze hráč."
+unknown-subcommand: "&cNeznámý příkaz."
+plugin-reloaded: "&b[FluxForge] &fPlugin úspěšně přenačten."
+
+# Machine general
+machine-placed: "&b[FluxForge] &f{machine} umístěn!"
+machine-removed: "&b[FluxForge] &f{machine} odebrán!"
+network-energy: "&7  Energie sítě: &a{energy} FE"
+not-a-machine: "&cMusíš se dívat na stroj (do 5 bloků)."
+
+# Generator
+generator-status: "&b[FluxForge] &fStav generátoru:"
+generator-fuel: "&7  Palivo: &e{fuel} zbývá"
+generator-energy: "&7  Energie sítě: &a{energy} FE"
+generator-tip: "&7  Tip: Klikni pravým tlačítkem s uhlím, dřevěným uhlím nebo bloky uhlí."
+generator-fuel-added: "&b[FluxForge] &fPřidáno {amount} uhlí do generátoru."
+generator-fuel-current: "&7Palivo: &e{fuel} zbývá"
+
+# Solar Panel
+solar-status: "&b[FluxForge] &fStav solárního panelu:"
+
+# Battery
+battery-status: "&b[FluxForge] &fStav baterie:"
+battery-energy: "&7  Energie: &a{energy} FE &7/ &a{max} FE"
+
+# Electric Furnace
+furnace-status: "&b[FluxForge] &fStav elektrické pece:"
+furnace-energy: "&7  Energie: &a{energy} FE"
+furnace-cost: "&7  Cena za tavení: &e{cost} FE"
+furnace-tip: "&7  Tip: Klikni pravým tlačítkem s tavitelným předmětem."
+furnace-not-smeltable: "&cTento předmět nelze tavit."
+furnace-not-enough-energy: "&cNedostatek energie! Potřeba {cost} FE, máš {energy} FE."
+furnace-smelted: "&b[FluxForge] &fPřetaveno {amount}x {item}!"
+furnace-energy-remaining: "&7  Zbývající energie: &a{energy} FE"
+furnace-hold-item: "&cDrž předmět který chceš tavit."
+
+# Miner
+miner-status: "&b[FluxForge] &fStav těžebního stroje:"
+miner-energy: "&7  Energie: &a{energy} FE"
+miner-cost: "&7  Cena za blok: &e{cost} FE"
+miner-next-block: "&7  Další blok: &f{block} &7na Y={y}"
+miner-nothing: "&7  Další blok: &cNení co těžit"
+
+# Mob Grinder
+grinder-status: "&b[FluxForge] &fStav drtičky mobů:"
+grinder-energy: "&7  Energie: &a{energy} FE"
+grinder-cost: "&7  Cena za zabití: &e{cost} FE"
+grinder-radius: "&7  Rádius: &f{radius} bloků"
+grinder-mobs: "&7  Mobové v okolí: &c{count}"
+
+# Item Sorter
+sorter-status: "&b[FluxForge] &fStav třídičky předmětů:"
+sorter-energy: "&7  Energie: &a{energy} FE"
+sorter-source-set: "&7  Zdrojový truhla: &aNastavena"
+sorter-source-not-set: "&7  Zdrojový truhla: &cNenastavena"
+sorter-filters: "&7  Filtry: &f{count} cílů"
+sorter-set-source-prompt: "&b[FluxForge] &fKlikni pravým tlačítkem na truhlu pro nastavení zdroje."
+sorter-source-confirmed: "&b[FluxForge] &fZdrojová truhla nastavena!"
+sorter-filter-added: "&b[FluxForge] &f{material} bude nyní tříděn do té truhly."
+sorter-filter-removed: "&b[FluxForge] &fFiltr pro {material} odebrán."
+sorter-cleared: "&b[FluxForge] &fKonfigurace třídičky vymazána."
+sorter-type-material: "&b[FluxForge] &fNapiš název materiálu do chatu (např. IRON_ORE)."
+sorter-type-cancel: "&7Napiš &ccancel &7pro zrušení."
+sorter-cancelled: "&7[FluxForge] Zrušeno."
+sorter-unknown-material: "&cNeznámý materiál: {material}"
+sorter-dest-prompt: "&b[FluxForge] &fNyní klikni pravým tlačítkem na truhlu pro {material}."
+sorter-not-chest: "&cTo není truhla!"
+sorter-chest-not-connected: "&cTato truhla není připojena k síti třídičky!"
+sorter-chest-connected: "&aTruhla je připojena k síti."
+
+# Conduit
+conduit-status: "&b[FluxForge] &fStav vodiče:"
+
+# Commands
+cmd-gave-machine: "&b[FluxForge] &fDostals {amount}x {machine}!"
+cmd-gave-component: "&b[FluxForge] &fDostals {amount}x {component}!"
+cmd-gave-wrench: "&b[FluxForge] &fDostals Flux Klíč!"
+cmd-gave-jetpack: "&b[FluxForge] &fDostals Flux Jetpack!"
+cmd-set-energy: "&b[FluxForge] &fEnergie stroje nastavena na {amount} FE."
+cmd-unknown-machine: "&cNeznámý typ stroje: {input}"
+cmd-unknown-component: "&cNeznámá komponenta: {input}"
+cmd-invalid-amount: "&cNeplatné množství: {input}"
+cmd-usage: "&b[FluxForge] &fPoužití:"
+cmd-usage-give: "&7  /ff give <stroj> [množství]"
+cmd-usage-givecomponent: "&7  /ff givecomponent <komponenta> [množství]"
+cmd-usage-givewrench: "&7  /ff givewrench"
+cmd-usage-setenergy: "&7  /ff setenergy <množství>"
+cmd-usage-language: "&7  /ff language <jazyk>"
+cmd-usage-recipes: "&7  /ff recipes"
+cmd-usage-reload: "&7  /ff reload"
+cmd-usage-migratedb: "&7  /ff migratedb [confirm]"
+
+# Language command
+language-changed: "&b[FluxForge] &fJazyk změněn na: &e{language}"
+language-not-found: "&cSoubor jazyka nenalezen: {language}"
+language-current: "&b[FluxForge] &fAktuální jazyk: &e{language}"
+
+# Item tooltips
+item-lore-machine: "&7FluxForge Stroj"
+item-lore-type: "&eTyp: &f{type}"
+item-lore-component: "&7FluxForge Komponent"
+item-lore-tier: "&eÚroveň {tier}"
+item-lore-wrench: "&7FluxForge Nástroj"
+item-lore-wrench-tip: "&eKlikni pravým tlačítkem na stroj pro konfiguraci."
+
+# GUI titles
+gui-generator: "Generátor"
+gui-solar-panel: "Solární Panel"
+gui-battery: "Baterie"
+gui-electric-furnace: "Elektrická Pec"
+gui-miner: "Těžební Stroj"
+gui-mob-grinder: "Drtička Mobů"
+gui-conduit: "Vodič"
+gui-item-sorter: "Třídička Předmětů"
+gui-sorter-filters: "Filtry Třídičky"
+
+# GUI items
+gui-fuel: "&ePalivo"
+gui-fuel-current: "&7Palivo: &e{fuel} zbývá"
+gui-fuel-tip: "&7Klikni pravým tlačítkem s uhlím, dřevěným uhlím nebo bloky uhlí."
+gui-network-energy: "&aEnergie Sítě"
+gui-energy-current: "&7Aktuálně: &a{energy} FE"
+gui-energy-max: "&7Max: &a{max} FE"
+gui-energy-solar-tip: "&7Produkuje energii za denního světla."
+gui-energy-bar: "&aUkazatel Energie"
+gui-smelt-button: "&eTavit"
+gui-smelt-tip1: "&7Drž předmět a klikni pro tavení."
+gui-smelt-tip2: "&7Taví co nejvíce energie dovolí."
+gui-smelt-cost: "&7Cena za tavení: &e{cost} FE"
+gui-miner-target: "&eDalší Cíl"
+gui-miner-block: "&7Blok: &f{block}"
+gui-miner-cost: "&7Cena za blok: &e{cost} FE"
+gui-mobs-nearby: "&cMobové v Okolí"
+gui-mobs-count: "&7Počet: &c{count}"
+gui-mobs-radius: "&7Rádius: &f{radius} bloků"
+gui-mobs-cost: "&7Cena za zabití: &e{cost} FE"
+gui-conduit-network-id: "&7ID Sítě: &f{id}"
+gui-sorter-source-chest: "&eZdrojová Truhla"
+gui-sorter-source-set: "&aNastavena"
+gui-sorter-source-not-set: "&cNenastavena"
+gui-sorter-source-tip: "&7Klikni pro nastavení zdrojové truhly."
+gui-sorter-filters-button: "&eFiltry"
+gui-sorter-filters-count: "&7Aktivní filtry: &f{count}"
+gui-sorter-filters-tip: "&7Klikni pro správu filtrů."
+gui-sorter-clear: "&cVymazat Konfiguraci"
+gui-sorter-clear-tip: "&7Vymaže veškerá nastavení třídičky."
+gui-sorter-add-filter: "&aPřidat Filtr"
+gui-sorter-add-filter-tip1: "&7Klikni pro přidání nového filtru."
+gui-sorter-add-filter-tip2: "&7Budete vyzváni k zadání materiálu."
+gui-sorter-back: "&eZpět"
+gui-sorter-back-tip: "&7Vrátit se do menu třídičky."
+gui-sorter-filter-dest: "&7Cíl: &f{dest}"
+gui-sorter-filter-remove: "&cKlikni pro odebrání."
+
+# Recipe GUI
+gui-recipes-title: "FluxForge Recepty"
+gui-recipes-back: "&eZpět"
+gui-recipes-back-tip: "&7Vrátit se na seznam receptů."
+gui-recipe-title: "Recept: {item}"
+gui-recipe-result: "&aVýsledek"
+gui-recipe-click-tip: "&7Klikni na předmět pro zobrazení receptu."
+
+# Machine toggle
+machine-toggle-on: "&b[FluxForge] &f{machine} zapnut."
+machine-toggle-off: "&b[FluxForge] &f{machine} vypnut."
+gui-toggle-enable: "&aZapnout"
+gui-toggle-disable: "&cVypnout"
+gui-toggle-tip: "&7Klikni pro zapnutí/vypnutí."
+gui-toggle-status-on: "&7Stav: &aZapnuto"
+gui-toggle-status-off: "&7Stav: &cVypnuto"
+
+# Jetpack
+item-lore-jetpack: "&7FluxForge Nositelné"
+item-lore-jetpack-charge: "&eNabití: &f{charge}&7/&f{max} FE"
+jetpack-no-charge: "&cJetpack nemá žádné nabití!"
+jetpack-low-charge: "&eNabití jetpacku nízké: {charge} FE"
+
+# Charging Station
+gui-charging-station: "Nabíjecí Stanice"
+gui-charging-slot: "&eNabíjecí Slot"
+gui-charging-slot-tip: "&7Vlož nabíjecí předmět sem."
+gui-charging-progress: "&aPrůběh Nabíjení"
+gui-charging-current: "&7Nabití: &a{charge}&7/&a{max} FE"
+gui-charging-rate: "&7Rychlost: &e{rate} FE/tick"
+gui-charging-empty: "&7Žádný předmět nevložen."
+gui-charging-network: "&7Energie sítě: &a{energy} FE"
+charging-not-chargeable: "&cTento předmět nelze nabít."
+charging-station-status: "&b[FluxForge] &fNabíjecí Stanice:"
+charging-station-item-charge: "&7  Nabití předmětu: &a{charge}&7/&a{max} FE"
+charging-station-no-item: "&7  Žádný předmět nevložen."
+
+# Database migration
+migrate-info: "&b[FluxForge] &fToto přenese vaše SQLite data do MySQL."
+migrate-configure: "&eNejprve zkontrolujte nastavení MySQL v config.yml."
+migrate-confirm: "&cNapište /ff migratedb confirm pro pokračování."
+migrate-already-mysql: "&c[FluxForge] Již používáte MySQL!"
+migrate-starting: "&b[FluxForge] &fSpouštím migraci..."
+migrate-complete: "&b[FluxForge] &aMigrace dokončena!"
+migrate-switch: "&eZměňte 'database.type' na 'mysql' v config.yml a restartujte."
+migrate-failed: "&c[FluxForge] Migrace selhala: {error}"
